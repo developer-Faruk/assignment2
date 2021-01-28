@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.full-website {
+    width: 1024px;
+    margin: auto;
+}
+
+
+.header {
+}
+.header ul{
+    text-align: center;
+    padding: 10px 0;
+}
+.header ul li{
+    display: inline-block;
+    background-color: aqua;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+
+}
+.header ul li a{
+    text-decoration: none;
+
+}
+.header ul li a:hover{}
+
+
+.baner {
+
+    background-color:#48dbfb;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+
+    padding: 94px 0;
+}
+
+
+.baner a {
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    padding: 15px 15px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+.baner i{
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.baner h3,h1 {
+    line-height: 74px;
+  }
+
+
+  .container{
+      padding:50px;
+      text-align: center;
+      margin: auto;
+
+  }
+  .container p{
+      margin-top: 10px;
+      line-height: 30px;  
+
+  }
+  .rotate {
+	text-align: center;
+	margin-bottom: 23px;
+}
+
+
+.first:hover{
+    transform: rotate(-45deg);
+}
+.second {
+}
+.third {
+}
+.first {
+    padding: 10px;
+    display: inline-block;
+
+	background-color: black;
+	color: azure;
+    text-align: left;
+    transition: all .4s linear;
+
+}
+.extra:hover{
+    transform: rotate(45deg);
+
+}
+.extra{
+    margin-left: 30%;
+
+}
+.rotate h2 {
+	padding: 10px;
+	display: inline-block;
+	background-color: black;
+	color: azure;
+	text-align: center;
+	margin-left: 21%;
+}
+  .footer {
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 10px 5px;
+}
